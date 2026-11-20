@@ -1,0 +1,81 @@
+# Brainly - Git Ignore Rules
+
+# Environment files (NEVER commit secrets!)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Supabase local development
+.supabase/
+
+# Vercel
+.vercel/
+
+# Turbo
+.turbo/
+
+# Build outputs
+.next/
+out/
+dist/
+
+# Node modules (for frontend/widget)
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Sentry
+.sentryclirc
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
